@@ -3,7 +3,6 @@ function filterArray(numbers, value) {
 
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > value) {
-      // arr += numbers[i]; //конкатинація
       arr.push(numbers[i]);
     }
   }
